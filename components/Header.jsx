@@ -1,7 +1,9 @@
 export default function Header(props) {
-    return(
-        <header>
-            Header
-        </header>
-    )
+  return(
+    <header>
+      <Link>
+        <a href=""></a>
+      </Link>
+    </header>
+  )
 }
