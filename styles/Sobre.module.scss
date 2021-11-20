@@ -1,0 +1,26 @@
+.section{
+    background-color: var(--green);
+    width: 100%;
+    padding: 50px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .areaImagem{
+        position: relative;
+        width: 45%;
+        padding-top: calc((9 / 16) * 45%);
+        background-color: var(--black);
+    }
+
+    .areaContent{
+        width: 45%;
+
+        .p{
+            color: var(--black);
+            width: 100%;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+    }
+}

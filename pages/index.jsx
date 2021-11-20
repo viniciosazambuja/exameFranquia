@@ -15,7 +15,7 @@ export default function Home() {
         <Header />
         <Inicio />
         <Valores />
-        <Sobre></Sobre>
+        <Sobre />
         <Diferenciais></Diferenciais>
         <Planos></Planos>
         <Carrossel></Carrossel>
