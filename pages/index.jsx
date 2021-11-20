@@ -13,8 +13,8 @@ export default function Home() {
   return (
       <main>
         <Header />
-        <Inicio></Inicio>
-        <Valores></Valores>
+        <Inicio />
+        <Valores />
         <Sobre></Sobre>
         <Diferenciais></Diferenciais>
         <Planos></Planos>
