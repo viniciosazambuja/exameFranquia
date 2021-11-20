@@ -4,13 +4,13 @@ import Img from '../public/images/img.png'
 import Image from 'next/image'
 export default function Inicio(props) {
   return(
-    <section>
+    <section className={styles.section}>
       <div className={styles.areaContent}>
-        <h1>Esse é o titulo principal da ossa landing page</h1>
-        <Button actionButton="">isso a</Button>
+        <h1 className={styles.titulo}>Esse é o titulo principal da ossa landing page</h1>
+        <Button actionButton="">Seja um franquiado</Button>
       </div>
       <div className={styles.areaImage}>
-        <Image src={Img} />
+        <Image src={Img} layout="fill" objectFit="contain"/>
       </div>
     </section>
   )

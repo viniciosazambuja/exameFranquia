@@ -1,0 +1,27 @@
+.section{
+    width: 100%;
+    max-height: 700px;
+    background-color: var(--green);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 5vw;
+
+    .areaContent{
+        width: 45%;
+        margin: 50px 0;
+
+        .titulo{
+            font-size: 60px;
+            line-height: 110%;
+            color: var(--black);
+            margin-bottom: 30px;
+        }
+    }
+
+    .areaImage{
+        position: relative;
+        width: 55%;
+        padding-top: calc((8 / 16) * 55%);
+    }
+}
