@@ -16,7 +16,8 @@ export default function Home() {
         <Inicio />
         <Valores />
         <Sobre />
-        <Diferenciais></Diferenciais>
+        <Diferenciais />
+        <Diferenciais />
         <Planos></Planos>
         <Carrossel></Carrossel>
         <Videos></Videos>
