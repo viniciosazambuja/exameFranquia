@@ -18,8 +18,8 @@ export default function Home() {
         <Sobre />
         <Diferenciais />
         <Diferenciais />
-        <Planos></Planos>
-        <Carrossel></Carrossel>
+        <Planos />
+        <Carrossel />
         <Videos></Videos>
         <Formulario></Formulario>
         <Footer></Footer>
