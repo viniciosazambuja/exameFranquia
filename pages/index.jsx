@@ -20,7 +20,7 @@ export default function Home() {
         <Diferenciais />
         <Planos />
         <Carrossel />
-        <Videos></Videos>
+        <Videos />
         <Formulario></Formulario>
         <Footer></Footer>
       </main>

@@ -1,0 +1,42 @@
+.section{
+    background-color: var(--green);
+    padding: 50px 5vw;
+    text-align: center;
+    width: 100%;
+
+    .titulo{
+        font-size: 30px;
+        color: var(--black);
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    .subTitulo{
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--black);
+    }
+
+    .areaVideos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+
+        .video{
+            width: 45%;
+            position: relative;
+            padding-top: calc((9 / 16) * 45%);
+            background-color: var(--black);
+            margin: 0 20px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }
+}
