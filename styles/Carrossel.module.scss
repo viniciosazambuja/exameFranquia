@@ -19,6 +19,11 @@
         z-index: 100;
         cursor: pointer;
 
+        .icon{
+            color: var(--white);
+            font-size: 20px;
+        }
+
         &:nth-child(1){
             left: 0;
             background: linear-gradient(to right, var(--black),transparent);
