@@ -1,5 +1,23 @@
 import styles from '../styles/Formulario.module.scss'
+import { useState } from 'react'
+
 export default function Formulário(props) {
+
+    const [dataForm, setDataForm] = useState({
+        nome: "",
+        sobrenome: "",
+        email: "",
+        celular: "",
+        cidade: "",
+        estado: "",
+        profissao: "",
+        investimento: ""    
+    })
+
+    const handleInput = event => {
+        setDataForm({...dataForm, [event.target.name]: event.target.value})
+    }
+
     return(
         <section className={styles.section}>
             <h2 className={styles.titulo}>VEJA NOSSOS VIDEOS</h2>
