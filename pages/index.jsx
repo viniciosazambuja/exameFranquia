@@ -21,7 +21,7 @@ export default function Home() {
         <Planos />
         <Carrossel />
         <Videos />
-        <Formulario></Formulario>
+        <Formulario />
         <Footer />
       </main>
     )

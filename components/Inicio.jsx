@@ -7,7 +7,7 @@ export default function Inicio(props) {
     <section className={styles.section}>
       <div className={styles.areaContent}>
         <h1 className={styles.titulo}>Esse é o titulo principal da ossa landing page</h1>
-        <Button actionButton="">Seja um franquiado</Button>
+        <Button actionButton="/">Seja um franquiado</Button>
       </div>
       <div className={styles.areaImage}>
         <Image src={Img} layout="fill" objectFit="contain"/>

@@ -22,9 +22,8 @@ export default function Button (props){
       <button
         onClick={props.actionButton}
         className={`
-            ${styles.button}
-            ${styles[props.sizeButton]}
-            ${props.buttonHover ? styles.buttonHover : ''}
+            ${styles.button} 
+            ${props.form ? styles.form : ''}
         `}>
         {props.children}
       </button>
@@ -38,9 +37,8 @@ export default function Button (props){
       <Link href={props.actionButton}>
         <a
           className={`
-          ${styles.button}
-          ${styles[props.sizeButton]}
-          ${props.buttonHover ? styles.buttonHover : ''}
+          ${styles.button} 
+          ${props.form ? styles.form : ''}
         `}>
         {props.children}
         </a>
