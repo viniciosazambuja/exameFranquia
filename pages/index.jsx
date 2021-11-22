@@ -22,7 +22,7 @@ export default function Home() {
         <Carrossel />
         <Videos />
         <Formulario></Formulario>
-        <Footer></Footer>
+        <Footer />
       </main>
     )
 }

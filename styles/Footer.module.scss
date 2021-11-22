@@ -1,0 +1,71 @@
+.footer{
+    width: 100%;
+
+    .subFooter{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        background-color: var(--black);
+        padding: 50px 10vw;
+
+        .areaInfo{
+            color: var(--white);
+            text-align: left;
+
+            .titulo{
+                font-weight: 800;
+                margin-bottom: 5px;
+            }
+
+            .p{
+                font-weight: 400;
+            }
+        }
+
+        .redesSociais{
+            display: block;
+
+            .rede{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 10px;
+
+                .icon{
+                    width: 30px;
+                    margin-left: 5px;
+                    color: var(--white);
+                }
+
+                .nomeRede{
+                    font-weight: 600;
+                    color: var(--white);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    .realFooter{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: var(--green);
+        padding: 0 5vw;
+        height: 50px;
+
+        .span{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--black);
+            font-size: 14px;
+            font-weight: 800;
+        }
+    }
+}
